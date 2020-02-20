@@ -1,5 +1,5 @@
 # Phemex C++ API
-This is project includes 2 parts,
+This project includes 2 parts,
 * Phemex market data & trading API in C++
 * A simple runnable demo to Phemex market data & trading services
 
