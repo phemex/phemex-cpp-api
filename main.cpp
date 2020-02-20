@@ -1,7 +1,5 @@
 #include <iostream>
-#include <string>
 
-#include <boost/preprocessor/stringize.hpp>
 #include <nlohmann/json.hpp>
 
 #include "client.hpp"
