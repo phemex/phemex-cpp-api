@@ -5,7 +5,7 @@ This is project includes 2 parts,
 
 ### Depends
 
-* GCC >= 8.2, supports C++17
+* GCC >= 8.2, requires C++17
 * Boost 1.70.0
 * OpenSSL 1.1.1.d-2
 * [nlohmann json 3.7.3](https://github.com/nlohmann/json)

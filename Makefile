@@ -24,7 +24,7 @@ PROTOBUF_HDR    = /usr/include/
 
 ##-----------OS/COMPILE SPECIAL FLAGS------------
 RELEASE_REVISON=$(VERSION).$(GIT_REVISION)
-CXXFLAGS = -O0 -g -Wall -std=c++17 -DBOOST_LOG_DYN_LINK -DBOOST_ASIO_HAS_STD_CHRONO -DBOOST_COROUTINES_NO_DEPRECATION_WARNING -Wunused-variable -Wno-overloaded-virtual -Wno-deprecated-declarations -fdata-sections -ffunction-sections -DNDEBUG
+CXXFLAGS = -O3 -Wall -std=c++17 -DBOOST_LOG_DYN_LINK -DBOOST_ASIO_HAS_STD_CHRONO -DBOOST_COROUTINES_NO_DEPRECATION_WARNING -Wunused-variable -Wno-overloaded-virtual -Wno-deprecated-declarations -fdata-sections -ffunction-sections -DNDEBUG
 
 LDFLAGS = 
 
