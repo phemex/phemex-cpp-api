@@ -8,7 +8,7 @@ namespace phemex::common::config
 {
 struct WebsocketClient
 {
-  HostAddress addr{"wss://phemex.com/ws"};
+  HostAddress addr{"wss://ws.phemex.com"};
   bool ssl                    = true;
   int32_t timeout             = 30;
   double reconnect_interval   = 1;
